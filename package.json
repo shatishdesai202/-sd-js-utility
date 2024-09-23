@@ -1,0 +1,24 @@
+{
+  "name": "@sd/js-utility",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [
+    "sd",
+    "utility",
+    "javascript",
+    "typescript"
+  ],
+  "author": "ShatishD",
+  "license": "ISC",
+  "description": "This is a utility library for javascript",
+  "devDependencies": {
+    "@types/node": "^22.5.5",
+    "typescript": "^5.6.2"
+  },
+  "files": [
+    "dist"
+  ]
+}
