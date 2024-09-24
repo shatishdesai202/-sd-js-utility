@@ -1,11 +1,21 @@
 {
   "compilerOptions": {
-    "outDir": "./dist",
-    "rootDir": "./src",
+    "target": "es5",
+    "module": "esnext",
+    "jsx": "react",
+    "sourceMap": true,
+    "outDir": "dist",
     "strict": true,
-    "module": "commonjs",
-    "target": "es6",
-    "declaration": true
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "declaration": true,
+    "declarationDir": "lib",
+    "emitDeclarationOnly": false,
+    "lib": ["es2017", "dom"]
   },
-  "include": ["src"]
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "**/*.spec.ts"]
 }
